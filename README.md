@@ -23,7 +23,7 @@
 
 ---
 
-## ディレクトリ構成（例）
+## ディレクトリ構成
 01_fashionsite/
 ├── index.html
 ├── images/
