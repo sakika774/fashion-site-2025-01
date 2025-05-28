@@ -24,6 +24,7 @@
 ---
 
 ## ディレクトリ構成
+```
 01_fashionsite/
 ├── index.html
 ├── images/
@@ -44,6 +45,7 @@
 └── js/
     ├── evaluate_script.js
     └── site_script.js
+```
 
 ---
 
