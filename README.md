@@ -30,20 +30,20 @@
 ├── page_site/
 │   ├── 01.html
 │   ├── 02.html
-│   ├── …
+│   ├── ...
 │   └── 10.html
 ├── page_evaluate/
 │   ├── 01_evaluate.html
 │   ├── 02_evaluate.html
-│   ├── …
+│   ├── ...
 │   └── 10_evaluate.html
 ├── css/
 │   ├── evaluate_style.css
 │   ├── site_style.css
 │   └── style.css
 └── js/
-├── evaluate_script.js
-└── site_script.js
+    ├── evaluate_script.js
+    └── site_script.js
 
 ---
 
