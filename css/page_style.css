@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #000;
+}
+
+.flex {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* 下に配置 */
+    position: relative;
+}
+
+.image1 {
+    height: 100%;
+    width: auto;
+}
+
+.b_forward,
+.b_back {
+    cursor: pointer;
+    width: 0;
+    /* 幅を0に設定 */
+    height: 0;
+    /* 高さを0に設定 */
+}
+
+.b_forward {
+    border-left: 70px solid #808080;
+    /* サイズを調整 */
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    margin: 20px;
+    position: relative;
+}
+
+.b_back {
+    border-right: 70px solid #808080;
+    /* サイズを調整 */
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    margin: 20px;
+    position: relative;
+}
+
+.b_evaluation {
+    width: 280px;
+    /* リンクの幅を調整 */
+    height: 80px;
+    /* リンクの高さを調整 */
+    background-color: #808080;
+    border-radius: 60px;
+    /* 丸みを調整 */
+    display: none;
+    position: absolute;
+    right: 20px;
+    /* 三角アイコンと同じ位置 */
+    bottom: 20px;
+    /* 三角アイコンと同じ位置 */
+    display: flex;
+    justify-content: center;
+    /* 水平方向に中央揃え */
+    align-items: center;
+    /* 垂直方向に中央揃え */
+    color: #fff;
+    /* テキストを黒色に設定 */
+    text-decoration: none;
+    font-size: 24px;
+    /* テキストを太字に設定 */
+    border: none;
+    /* 枠線を消す */
+}
+
+.b_forward:hover {
+    border-left: 70px solid #666666;
+}
+
+.b_back:hover {
+    border-right: 70px solid #666666;
+}
+
+button:hover {
+    background: #555555;
+}
+
